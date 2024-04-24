@@ -3,7 +3,7 @@ Just a simple guide for uploading a student's black belt game to GitHub Pages as
 
 1. Create and open a new project in Unity.
 2. After importing necessary assets and verifying the game works correctly, click on 'File' in the top left corner and navigate to 'Build Settings'. ![image](updated.png)
-3. Once you are in 'Build Settings', select WebGL in the list of options. If it says you have to install the WebGL tools, click the 'Install with Unity Hub' button(it should say something along those lines). ![image2](ok.png)
+3. Once you are in 'Build Settings', select WebGL in the list of options. If it says you have to install the WebGL tools, click the 'Install with Unity Hub' button(it should say something along those lines).
 4. Once WebGL has been installed(or if it already has been installed), click the 'Player Settings" button in the bottom left of the 'Build Settings' window. ![image3](ok2.png)
 5. Within the new 'Player Settings' window, ***1)*** Select 'Player' from the list on the left side of the window, then ***2)*** select 'Other Settings' and fix any errors it says there are-they have pretty straightforward explanations for making sure you can fix them easily, and ***3)*** select 'Publishing Settings' and make sure 'Decompression Fallback' is checked and 'Compression Format' is gzip. ***It is important you do all these things(ESPECIALLY THE STUFF FOR COMPRESSION) so that the game actually works once you've published it to GitHub.*** ![image4](ok4.png)
 6. Close the 'Player Settings' window once this is done, and now click 'Build' in the 'Build Settings' window. ***DO NOT CLICK 'BUILD AND RUN'***
